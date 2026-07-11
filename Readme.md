@@ -252,7 +252,7 @@ Every new concept I learn is added here as I continue my journey toward becoming
 
 ## Abhay Shukla
 
-**B.E. Student (Artificial Intelligence & Machine Learning)**
+**B.Tech Student (Artificial Intelligence & Machine Learning)**
 
 💻 Aspiring Full Stack MERN Developer
 
