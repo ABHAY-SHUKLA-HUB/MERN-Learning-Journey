@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cae1f5;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-formatting{
+    text-align: center;
+    margin-top: 10px;
+    color: #0000ff;
+}
+.text-formatting p{
+    margin-top: 10px;
+    color: #000000;
+}
+h2{
+    margin-top: 15px;
+}
+.formatting{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
