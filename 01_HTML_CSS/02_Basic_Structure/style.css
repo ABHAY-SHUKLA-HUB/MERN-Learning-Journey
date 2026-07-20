@@ -1,0 +1,35 @@
+/* This CSS code is a global reset used to strip default browser styling and stabilize layouts. */
+
+*{
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+
+    background-color: lightgoldenrodyellow;
+
+}
+
+.main-heading{
+
+    padding: 10px;
+
+    color: rgb(4, 186, 196);
+
+    text-align: center;
+
+}
+
+p{
+
+    margin-top: 10px;;
+
+}
