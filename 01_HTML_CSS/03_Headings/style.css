@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-heading{
+    text-align: center;
+    margin-top: 10px;
+}
+
+p{
+    margin-top: 10px;
+}
+
+.headings{
+    padding: 10px;
+}
+
+h1{
+    color: red;
+}
+
+h2,
+h3,
+h4,
+h5{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+h6{
+    margin-top: 20px;
+    padding: 10px;
+    color: gray;
+}
