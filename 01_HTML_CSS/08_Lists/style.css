@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+.html-lists{
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+.html-lists p{
+    margin-top: 10px;
+    line-height: 20px;
+    color: black;
+}
+
+.lists{
+    margin: 20px;
+    padding: 10px;
+    line-height: 30px;
+    
+}
+
+.unordered-list ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.ordered-list ol{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
