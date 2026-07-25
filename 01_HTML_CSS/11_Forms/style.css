@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: peachpuff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.html-form{
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+}
+.forms{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: azure;
+}
+
+.forms label{
+    display: block;
+    margin-top: 10px;
+}
+.forms input{
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid violet;
+}
+.forms button{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(190, 250, 227);
+    color: darkgreen;
+    border: 2px solid black;
+}
