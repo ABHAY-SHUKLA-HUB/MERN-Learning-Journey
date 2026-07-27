@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title> HTML SELECT & OPTION</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+    <section>
+        <div class="header">
+            <h1> HTML SELECT & OPTION</h1>
+            <p>Dropdown menus allow users
+                to choose one option from many.</p>
+        </div>
+        <div class="options">
+            <form action="" method="post">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name"><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email"><br>
+
+                <label for="course">Select Course</label><br>
+                <select id="course" name="course">
+                    <option value="">Choose Course</option>
+                    <option value="be">B.E</option>
+                    <option value="bca">BCA</option>
+                    <option value="bba">BBA</option>
+                    <option value="mca">MCA</option>
+                </select><br>
+
+                <label for="year">Select Year</label><br>
+                <select id="year" name="year">
+                    <option value="">Choose Year</option>
+                    <option>First Year</option>
+                    <option>Second Year</option>
+                    <option>Third Year</option>
+                    <option>Fourth Year</option>
+                </select><br>
+
+                <label for="city">Select City</label><br>
+                <select id="city" name="city">
+                    <option >Lucknow</option>
+                    <option >Kanpur</option>
+                    <option >Noida</option>
+                    <option >Agra</option>
+                </select><br>
+
+                <button type="submit">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
