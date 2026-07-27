@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.header p{
+    margin-top: 10px;
+}
+
+.input-type{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid green;
+}
+
+.input-type label{
+    display: block;
+    margin-top: 15px;
+}
+
+.input-type input{
+    padding: 10px;
+    margin-top: 8px;
+    border: 2px solid red;
+}
