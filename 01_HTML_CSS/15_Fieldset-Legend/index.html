@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FIELDSET & LEGEND</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="header">
+            <h1>HTML FIELDSET & LEGEND</h1>
+            <p>Fieldset groups related form elements together.</p>
+        </div>
+        <div class="form-container">
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email">
+
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter Mobile Number">
+
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Academic Information</legend>
+                    <label for="course">Course</label>
+                    <select id="course" name="course">
+                        <option value="">Choose Course</option>
+                        <option value="be">B.E</option>
+                        <option value="bca">BCA</option>
+                        <option value="btech">B.Tech</option>
+                    </select>
+
+                    <label for="semester">Semester</label>
+                    <select id="semester" name="semester">
+                        <option value="">Choose Semester</option>
+                        <option>First</option>
+                        <option>Second</option>
+                        <option selected>Third</option>
+                        <option>Fourth</option>
+                    </select>
+
+                    <label for="branch">Branch</label>
+
+                    <select id="branch" name="branch">
+
+                        <option value="">Choose Branch</option>
+
+                        <option value="cse">Computer Science</option>
+
+                        <option value="aiml">AI & ML</option>
+
+                        <option value="me">Mechanical</option>
+
+                        <option value="civil">Civil</option>
+
+                        <option value="ece">Electronics</option>
+
+                    </select>
+
+                </fieldset>
+
+                <button type="submit">
+                    Submit
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
