@@ -1,53 +1,65 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
 }
 
 body{
-    background-color: azure;
-    font-family: 'Times New Roman', Times, serif;
+    background-color:azure;
+    font-family:'Times New Roman', Times, serif;
 }
+
 .header{
-    text-align: center;
-    padding: 10px;
-    margin-top: 10px;
-    background-color: blueviolet;
-    color: white;
+    text-align:center;
+    padding:10px;
+    margin-top:10px;
+    background-color:blueviolet;
+    color:white;
 }
 
 .header p{
-    margin-top: 10px;
-    padding: 10px;
+    margin-top:10px;
+    padding:10px;
 }
 
 .form-container{
-    margin: 10px;
-    padding: 10px;
+    margin:20px;
+    padding:20px;
 }
 
 .form-container fieldset{
-    border: 2px solid black;
-    padding: 20px;
-    margin-top: 30px;
+    border:2px solid black;
+    padding:20px;
+    margin-top:20px;
 }
 
 .form-container legend{
-    color: darkviolet;
-    font-weight: 700;
+    color:darkviolet;
+    font-weight:bold;
 }
+
 .form-container label{
-    display: block;
-    margin-top: 10px;
+    display:block;
+    margin-top:15px;
 }
+
 .form-container input{
-    padding: 10px;
-    margin-top: 10px;
-    border: 2px solid red;
+    padding:10px;
+    margin-top:8px;
+    border:2px solid red;
 }
+
+.form-container select{
+    padding:10px;
+    margin-top:8px;
+    border:2px solid blue;
+    background-color:aliceblue;
+}
+
 .form-container button{
-    padding: 10px;
-    margin-top: 10px;
-    background-color: lightpink;
-    border: 2px solid blue;
+    padding:10px;
+    margin-top:20px;
+    background-color:lightpink;
+    color:black;
+    border:2px solid blue;
 }
