@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    text-align: center;
+    padding: 20px;
+    background-color: darkblue;
+    color: white;
+}
+.header p{
+    margin-top: 10px;
+}
+.margin-section{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid blue;
+}
+.margin-section h2{
+    margin-bottom: 20px;
+    color: darkred;
+}
+.box{
+    width: 250px;
+    padding: 20px;
+    background-color: lightgreen;
+    border: 2px solid green;
+    text-align: center;
+}
+.box1{
+    margin: 20px;
+}
+.box2{
+    margin-top: 30px;
+}
+.box3{
+    margin-left: 100px;
+}
+.box4{
+    margin: 30px auto;
+}
