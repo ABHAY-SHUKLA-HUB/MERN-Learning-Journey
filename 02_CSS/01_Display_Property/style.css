@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    text-align: center;
+    padding: 20px;
+    background-color: darkblue;
+    color: white;
+}
+
+.header p{
+    margin-top: 10px;
+}
+
+.display-section{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid blue;
+}
+
+.display-section h2{
+    margin-bottom: 15px;
+    color: darkred;
+}
+
+.box{
+    background-color: lightgreen;
+    border: 2px solid green;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.block{
+    display: block;
+}
+
+.inline{
+    display: inline;
+}
+
+.inline-block{
+    display: inline-block;
+    width: 120px;
+}
+
+.hide{
+    display: none;
+}
