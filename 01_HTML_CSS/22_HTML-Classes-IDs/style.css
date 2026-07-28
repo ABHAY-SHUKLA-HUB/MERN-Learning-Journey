@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.description{
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.content{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid blue;
+}
+
+.title{
+    margin-top: 20px;
+    color: darkred;
+}
+
+.text{
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+#main-heading{
+    color: yellow;
+}
+
+#unique-text{
+    margin-top: 10px;
+    color: green;
+}
