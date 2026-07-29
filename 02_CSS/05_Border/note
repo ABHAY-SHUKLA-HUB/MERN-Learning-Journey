@@ -1,0 +1,34 @@
+/* 📘 Notes
+Border Syntax
+border: width style color;
+
+Example:
+
+border:2px solid red;
+Border Width
+border-width:5px;
+Border Style
+border-style:solid;
+
+Other styles:
+
+solid
+dashed
+dotted
+double
+groove
+ridge
+inset
+outset
+none
+Border Color
+border-color:blue;
+Border Radius
+
+Rounded corners banane ke liye:
+
+border-radius:20px;
+
+Circle banane ke liye:
+
+border-radius:50%; */
