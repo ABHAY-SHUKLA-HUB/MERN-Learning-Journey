@@ -79,3 +79,47 @@ body{
     margin-top:20px;
     line-height:30px;
 }
+/* 
+📘 Notes
+
+1️⃣ Static (Default)
+position:static;
+Default position
+top, left, right, bottom work nahi karte.
+
+2️⃣ Relative
+position:relative;
+left:50px;
+top:20px;
+Apni original position se move hota hai.
+Original space reserve rehti hai.
+
+3️⃣ Absolute ⭐
+position:absolute;
+top:20px;
+left:30px;
+Nearest position: relative parent ke according move hota hai.
+Original space chhod deta hai.
+
+4️⃣ Fixed ⭐⭐⭐
+position:fixed;
+bottom:20px;
+right:20px;
+Screen ke according fix rehta hai.
+Scroll karne par bhi wahi dikhta hai.
+
+Example:
+
+Chat Button
+WhatsApp Button
+Back To Top Button
+
+5️⃣ Sticky ⭐⭐⭐
+position:sticky;
+top:0;
+Scroll hone tak normal.
+Top par pahunchte hi chipak jata hai.
+
+Example:
+
+Sticky Navbar */
