@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:aliceblue;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.header{
+    text-align:center;
+    padding:20px;
+    background-color:darkblue;
+    color:white;
+}
+
+.header p{
+    margin-top:10px;
+}
+
+.border-section{
+    margin:20px;
+    padding:20px;
+    border:2px solid blue;
+}
+
+.border-section h2{
+    margin-bottom:20px;
+    color:darkred;
+}
+
+.box{
+    width:300px;
+    padding:20px;
+    margin-top:20px;
+    background-color:lightyellow;
+    text-align:center;
+}
+
+.solid{
+    border:3px solid red;
+}
+
+.dashed{
+    border:3px dashed green;
+}
+
+.dotted{
+    border:3px dotted blue;
+}
+
+.double{
+    border:5px double purple;
+}
+
+.rounded{
+    border:3px solid black;
+    border-radius:20px;
+}
