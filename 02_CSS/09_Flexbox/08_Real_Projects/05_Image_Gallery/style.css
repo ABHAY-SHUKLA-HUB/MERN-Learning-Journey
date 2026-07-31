@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#eef2f7;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.header{
+    background:darkblue;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.header p{
+    margin-top:10px;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    padding:40px;
+}
+
+.image-card{
+    width:320px;
+    overflow:hidden;
+    border-radius:10px;
+    box-shadow:0 5px 12px rgba(0,0,0,0.2);
+}
+
+.image-card img{
+    width:100%;
+    display:block;
+    transition:0.4s;
+}
+
+.image-card:hover img{
+    transform:scale(1.08);
+}
