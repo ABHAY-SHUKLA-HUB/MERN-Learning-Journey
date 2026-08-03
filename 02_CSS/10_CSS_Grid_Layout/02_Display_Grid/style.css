@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:aliceblue;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.header{
+    text-align:center;
+    padding:20px;
+    background-color:darkblue;
+    color:white;
+}
+
+.header p{
+    margin-top:10px;
+}
+
+.container{
+    display:grid;
+    padding:20px;
+    border:2px solid blue;
+}
+
+.box{
+    padding:30px;
+    margin:10px;
+    background-color:tomato;
+    color:white;
+    text-align:center;
+    font-size:22px;
+}
