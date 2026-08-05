@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:aliceblue;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.page-header{
+    text-align:center;
+    padding:20px;
+    background:darkblue;
+    color:white;
+}
+
+.page-header p{
+    margin-top:10px;
+}
+
+ .container{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,150px);
+
+    grid-template-rows:repeat(2,150px);
+
+    justify-content:center;
+
+    align-content:center;
+
+    justify-items:center;
+
+    align-items:center;
+
+    gap:20px;
+
+    height:80vh;
+
+}
+
+.box{
+
+    width:100px;
+
+    height:100px;
+
+    background:tomato;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:28px;
+
+    border-radius:8px;
+
+}
