@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #1f2937;
+    color: white;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+.pricing {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: 30px;
+
+    padding: 40px;
+
+}
+
+.card {
+
+    background: white;
+
+    border-radius: 12px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    position: relative;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .15);
+
+    transition: .3s;
+
+}
+
+.card:hover {
+
+    transform: translateY(-10px);
+
+}
+
+.featured {
+
+    border: 3px solid royalblue;
+
+}
+
+.badge {
+
+    position: absolute;
+
+    top: -15px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background: royalblue;
+
+    color: white;
+
+    padding: 8px 18px;
+
+    border-radius: 20px;
+
+    font-size: 14px;
+
+}
+
+.card h3 {
+
+    margin: 20px 0;
+
+    font-size: 40px;
+
+    color: royalblue;
+
+}
+
+.card span {
+
+    font-size: 18px;
+
+    color: #666;
+
+}
+
+.card ul {
+
+    list-style: none;
+
+    margin: 25px 0;
+
+}
+
+.card li {
+
+    margin: 15px 0;
+
+}
+
+.card button {
+
+    padding: 12px 25px;
+
+    border: none;
+
+    background: royalblue;
+
+    color: white;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+}
+
+.card button:hover {
+
+    background: #1d4ed8;
+
+}
