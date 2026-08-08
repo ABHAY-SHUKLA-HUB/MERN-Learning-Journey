@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: aliceblue;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: darkblue;
+    color: white;
+}
+
+header p {
+    margin-top: 10px;
+}
+ 
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+.title {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: royalblue;
+    left: -60px;
+    top: 50%;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: royalblue;
+    right: -60px;
+    top: 50%;
+}
+
+.card {
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
+    position: relative;
+}
+
+.card::before {
+    content: "NEW";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 25px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    background: royalblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button::after {
+    content: " →";
+}
